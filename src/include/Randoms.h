@@ -33,7 +33,7 @@ protected:
 	T lower_;
 	T upper_;
 	T randomNumber_;
-	std::default_random_engine	engine_;
+	std::default_random_engine engine_;
 };
 
 template <>
