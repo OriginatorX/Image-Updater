@@ -6,4 +6,4 @@
 ## You can create an automated task using Task Scheduler.
 ### Firefox must be reloaded to change an image!
 
-[!](chrome/images/1.png)
+[!](logo.png)
