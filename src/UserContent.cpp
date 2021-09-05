@@ -21,7 +21,7 @@ UserContent::UserContent(std::fstream&& stream,
 		throw std::runtime_error("images is empty");
 }
 
-size_t UserContent::searchPatternIdx() {
+size_t UserContent::SearchPatternIdx() {
 	size_t	index				  = 0;
 	size_t	numberOfStr			  = 0;
 	size_t	sizeOfFileBeforeIndx  = 0;
@@ -45,7 +45,7 @@ size_t UserContent::searchPatternIdx() {
 	return indexOfPattern_;
 }
 
-void UserContent::changeContent() {
+void UserContent::Change() {
 	stream_.seekg(indexOfPattern_, std::ios::beg);
 	stream_ << images_[random_()];
 }

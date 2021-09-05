@@ -14,8 +14,8 @@ public:
 				const std::vector<std::string>& images, 
 				const std::string& pattern);
 public:
-	size_t		searchPatternIdx();
-	void		changeContent();
+	size_t		SearchPatternIdx();
+	void		Change();
 private:
 	std::fstream			 stream_;
 	std::vector<std::string> images_;

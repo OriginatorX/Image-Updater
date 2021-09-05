@@ -19,8 +19,8 @@ auto main(int argc, char** const argv) -> int {
 			, "images/"
 		};
 
-		content.searchPatternIdx();
-		content.changeContent();
+		content.SearchPatternIdx();
+		content.Change();
 	}
 	catch (const std::exception& exp) {
 		std::cerr << exp.what();
