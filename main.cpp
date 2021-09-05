@@ -15,7 +15,7 @@ auto main(int argc, char** const argv) -> int {
 				std::ios::in | std::ios::out
 			}
 			, Random<int>{ 0, 2 }
-			, std::vector<std::string>{"1.png", "2.jpg", "3.jpg"}
+			, std::vector<std::string>{"1.jpg", "2.jpg", "3.jpg"}
 			, "images/"
 		};
 
