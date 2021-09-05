@@ -32,9 +32,7 @@ public:
 protected:
 	T lower_;
 	T upper_;
-
 	T randomNumber_;
-
 	std::default_random_engine	engine_;
 };
 
