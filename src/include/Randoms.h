@@ -17,9 +17,7 @@ public:
 	SuperRandom(T lower = T(), T upper = T()) 
 		: lower_(lower)
 		, upper_(upper)
-
 		, randomNumber_(T())
-
 		, engine_(std::random_device{}())
 	{};
 
