@@ -11,4 +11,4 @@
 ### or using another generator like "Ninja"
     .\build "Ninja"
 
-[!](logo.png)
+[!Image](logo.png)
