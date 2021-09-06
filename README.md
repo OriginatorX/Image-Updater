@@ -6,4 +6,9 @@
 ## You can create an automated task using Task Scheduler.
 ### Firefox must be reloaded to change an image!
 
+## Build for windows
+    .\build "Visual Studio 16 2019"
+### or using another generator like "Ninja"
+    .\build "Ninja"
+
 [!](logo.png)
