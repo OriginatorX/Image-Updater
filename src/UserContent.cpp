@@ -20,7 +20,7 @@ UserContent::UserContent(std::fstream&& stream,
 	if (images.empty())
 		throw std::runtime_error("images is empty");
 }
-
+ 
 size_t UserContent::SearchPatternIdx() {
 	size_t	index				  = 0;
 	size_t	numberOfStr			  = 0;
