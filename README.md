@@ -13,5 +13,8 @@
 
 ## Build for Linux
     bash linuxBuild.sh
+### run 
+    cd build
+    ./imch
 
 ![logo](logo.png)
