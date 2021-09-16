@@ -10,7 +10,7 @@ auto main(int argc, char** const argv) -> int {
 	try {
 		UserContent content{
 			std::fstream{
-				"../chrome/userContent.css",
+				"path/to/your/userContent.css",
 				std::ios::in | std::ios::out
 			}
 			, Random<int>{ 0, 2 }
