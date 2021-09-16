@@ -10,5 +10,8 @@
     .\build "Visual Studio 16 2019"
 ### or using another generator like "Ninja"
     .\build "Ninja"
+    
+## Build for Linux
+    bash linuxBuild.sh
 
 ![logo](logo.png)
