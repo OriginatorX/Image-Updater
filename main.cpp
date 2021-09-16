@@ -10,13 +10,12 @@ auto main(int argc, char** const argv) -> int {
 	try {
 		UserContent content{
 			std::fstream{
-				"C:/Users/Origin/AppData/Roaming/Mozilla/Firefox/Profiles/"
-				"o2sdvgdo.default-release/chrome/userContent.css",
+				"/path/to/your/userContent.css",
 				std::ios::in | std::ios::out
 			}
 			, Random<int>{ 0, 2 }
 			, std::vector<std::string>{"1.jpg", "2.jpg", "3.jpg"}
-			, "images/"
+			, "img/"
 		};
 
 		content.SearchPatternIdx();
