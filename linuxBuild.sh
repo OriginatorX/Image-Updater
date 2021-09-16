@@ -1,10 +1,10 @@
 echo "Building for linux"
 
-if [ ! -d "$./build" ] 
+if [ -d ./build ] 
 then
-    echo "HI"
-    mkdir build && echo DIR build created
+    rm -r build && echo DIR build deleted    
 fi
 
+mkdir build && echo DIR build created
 cd build
 make -f ../Makefile
