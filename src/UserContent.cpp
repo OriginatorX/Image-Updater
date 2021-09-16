@@ -41,7 +41,7 @@ size_t UserContent::SearchPatternIdx() {
 		throw std::runtime_error("pattern wasn't found");
 
 #if defined(_WIN32) || defined(_WIN64) 
-	indexOfPattern_ = sizeOfFileBeforeIndx + index + pattern_.size();
+	indexOfPattern_ = sizeOfFileBeforeIndx + numberOfStr + index + pattern_.size();
 #else
 	indexOfPattern_ = sizeOfFileBeforeIndx + index + pattern_.size();
 #endif
