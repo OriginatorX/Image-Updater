@@ -30,7 +30,7 @@ size_t UserContent::SearchPatternIdx() {
 
 	for (; std::getline(stream_, currentStr); ++numberOfStr) {
 
-		if ((index = currentStr.find("images/")) != std::string::npos) 
+		if ((index = currentStr.find(pattern_)) != std::string::npos) 
 			break;
 		
 		currentStr += '\0';
@@ -40,7 +40,7 @@ size_t UserContent::SearchPatternIdx() {
 	if (index == std::string::npos) 
 		throw std::runtime_error("pattern wasn't found");
 
-	indexOfPattern_ = sizeOfFileBeforeIndx + numberOfStr + index + pattern_.size();
+	indexOfPattern_ = sizeOfFileBeforeIndx + index + pattern_.size();
 	
 	return indexOfPattern_;
 }
