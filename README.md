@@ -7,10 +7,10 @@
 ### Firefox must be reloaded to change an image!
 
 ## Build for windows
-    .\build "Visual Studio 16 2019"
+    .\windowsBuild "Visual Studio 16 2019"
 ### or using another generator like "Ninja"
-    .\build "Ninja"
-    
+    .\windowsBuild "Ninja"
+
 ## Build for Linux
     bash linuxBuild.sh
 
